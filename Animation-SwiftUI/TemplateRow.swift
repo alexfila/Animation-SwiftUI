@@ -1,5 +1,5 @@
 //
-//  TopicRow.swift
+//  TemplateRowView.swift
 //  Animation-SwiftUI
 //
 //  Created by Alex Fila on 23/9/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TopicRowView: View {
+struct TemplateRowView: View {
     var title : String
     var description: String
     var icon : String
@@ -34,6 +34,6 @@ struct TopicRowView: View {
 
 struct TopicRowView_Previews: PreviewProvider {
     static var previews: some View {
-        TopicRowView(title: "Animations", description: "Discover how to use animations to move shapes around the scene", icon: "circle.fill")
+        TemplateRowView(title: "Animations", description: "Discover how to use animations to move shapes around the scene", icon: "circle.fill")
     }
 }

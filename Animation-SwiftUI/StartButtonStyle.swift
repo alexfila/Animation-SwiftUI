@@ -1,5 +1,5 @@
 //
-//  ShapeButtonStyle.swift
+//  StartButtonStyle.swift
 //  Animation-SwiftUI
 //
 //  Created by Alex Fila on 23/9/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ShapesButton: ButtonStyle {
+struct StartButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
@@ -42,7 +42,7 @@ struct StartStopButton: View {
             }
            
         }
-        .buttonStyle(ShapesButton())
+        .buttonStyle(StartButton())
         
     }
 }

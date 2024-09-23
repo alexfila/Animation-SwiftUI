@@ -1,5 +1,5 @@
 //
-//  TopicList.swift
+//  TemplateList.swift
 //  Animation-SwiftUI
 //
 //  Created by Alex Fila on 23/9/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TopicList: View {
+struct TemplateList: View {
     var contentSource: [Template]
 
     @State private var selection: Destination?
@@ -17,7 +17,7 @@ struct TopicList: View {
         NavigationSplitView {
             List(selection: $selection) {
                 ForEach(contentSource) { row in
-                    TopicRowView(title: row.title, description: row.description, icon: row.symbol)
+                    TemplateRowView(title: row.title, description: row.description, icon: row.symbol)
                         .tag(row.destination)
                 }
             }
@@ -37,7 +37,7 @@ struct TopicList: View {
 
 struct TopicList_Previews: PreviewProvider {
     static var previews: some View {
-        TopicList(contentSource: TopicData.homeContent)
+        TemplateList(contentSource: TemplateData.homeContent)
     }
 }
 

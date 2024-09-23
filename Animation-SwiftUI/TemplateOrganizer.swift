@@ -1,5 +1,5 @@
 //
-//  TopicOrganizer.swift
+//  TemplateOrganizer.swift
 //  Animation-SwiftUI
 //
 //  Created by Alex Fila on 23/9/24.
@@ -38,7 +38,7 @@ enum Destination: String, CaseIterable {
     }
 }
 
-struct TopicData {
+struct TemplateData {
     static var homeContent = [
         Template(
             title: "Basic Shapes",

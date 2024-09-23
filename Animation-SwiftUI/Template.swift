@@ -1,5 +1,5 @@
 //
-//  Topic.swift
+//  Template.swift
 //  Animation-SwiftUI
 //
 //  Created by Alex Fila on 23/9/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Topic: Identifiable, Hashable {
+struct Template: Identifiable, Hashable {
     var id : UUID = UUID()
     var title : String
     var description: String
