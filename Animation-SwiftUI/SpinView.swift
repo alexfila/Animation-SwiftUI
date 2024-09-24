@@ -43,7 +43,7 @@ struct SpinView: View {
             StartStopButton(animating: $isRotating)
         }
         .navigationTitle("Spin Animation")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitleDisplayMode(.large)
     }
 }
 
