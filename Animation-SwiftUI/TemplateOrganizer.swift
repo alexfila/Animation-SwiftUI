@@ -10,7 +10,7 @@ import SwiftUI
 enum Destination: String, CaseIterable {
     case basicShapes
     case simpleAnimation
-    case spinningAnimation
+    case spinAnimation
     case explodingAnimation
     case rollingRainbow
     case dragnDropDots
@@ -24,8 +24,8 @@ enum Destination: String, CaseIterable {
             BasicShapesView()
         case .simpleAnimation:
             HeartPulseView()
-        case .spinningAnimation:
-           SpinningView()
+        case .spinAnimation:
+           SpinView()
         case .explodingAnimation:
            ExplodingView()
         case .rollingRainbow:
@@ -53,10 +53,10 @@ struct TemplateData {
             destination: .simpleAnimation
         ),
         Template(
-            title: "Spinning Animation",
-            description: "View a basic shape spinning on its x axis.",
-            symbol: "arrow.left.arrow.right.circle",
-            destination: .spinningAnimation
+            title: "Spin Animation",
+            description: "Any object rotating 360",
+            symbol: "rectangle.landscape.rotate",
+            destination: .spinAnimation
         ),
         Template(
             title: "Explosion Animation",

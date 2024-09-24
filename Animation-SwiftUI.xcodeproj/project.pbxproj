@@ -19,7 +19,7 @@
 		78B5D7F42CA0D9800091E7B2 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F32CA0D9800091E7B2 /* MatchedGeometryEffect.swift */; };
 		78B5D7F62CA0D9AD0091E7B2 /* RollingRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F52CA0D9AD0091E7B2 /* RollingRainbow.swift */; };
 		78B5D7F82CA0D9F30091E7B2 /* StartButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */; };
-		78B5D7FA2CA0DA230091E7B2 /* SpinningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F92CA0DA230091E7B2 /* SpinningView.swift */; };
+		78B5D7FA2CA0DA230091E7B2 /* SpinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F92CA0DA230091E7B2 /* SpinView.swift */; };
 		78B5D7FC2CA0DA480091E7B2 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7FB2CA0DA480091E7B2 /* Template.swift */; };
 		78B5D7FE2CA0DA590091E7B2 /* TemplateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7FD2CA0DA590091E7B2 /* TemplateList.swift */; };
 		78B5D8002CA0DA760091E7B2 /* TemplateOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7FF2CA0DA760091E7B2 /* TemplateOrganizer.swift */; };
@@ -40,7 +40,7 @@
 		78B5D7F32CA0D9800091E7B2 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		78B5D7F52CA0D9AD0091E7B2 /* RollingRainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingRainbow.swift; sourceTree = "<group>"; };
 		78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonStyle.swift; sourceTree = "<group>"; };
-		78B5D7F92CA0DA230091E7B2 /* SpinningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningView.swift; sourceTree = "<group>"; };
+		78B5D7F92CA0DA230091E7B2 /* SpinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinView.swift; sourceTree = "<group>"; };
 		78B5D7FB2CA0DA480091E7B2 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		78B5D7FD2CA0DA590091E7B2 /* TemplateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateList.swift; sourceTree = "<group>"; };
 		78B5D7FF2CA0DA760091E7B2 /* TemplateOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateOrganizer.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 				78B5D7F32CA0D9800091E7B2 /* MatchedGeometryEffect.swift */,
 				78B5D7F52CA0D9AD0091E7B2 /* RollingRainbow.swift */,
 				78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */,
-				78B5D7F92CA0DA230091E7B2 /* SpinningView.swift */,
+				78B5D7F92CA0DA230091E7B2 /* SpinView.swift */,
 				78B5D7FB2CA0DA480091E7B2 /* Template.swift */,
 				78B5D7FD2CA0DA590091E7B2 /* TemplateList.swift */,
 				78B5D8012CA0DAF30091E7B2 /* TemplateRow.swift */,
@@ -176,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B5D7FA2CA0DA230091E7B2 /* SpinningView.swift in Sources */,
+				78B5D7FA2CA0DA230091E7B2 /* SpinView.swift in Sources */,
 				78B5D8002CA0DA760091E7B2 /* TemplateOrganizer.swift in Sources */,
 				78B5D7FE2CA0DA590091E7B2 /* TemplateList.swift in Sources */,
 				78B5D7FC2CA0DA480091E7B2 /* Template.swift in Sources */,
