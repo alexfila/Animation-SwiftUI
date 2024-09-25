@@ -16,7 +16,7 @@
 		78B5D7EE2CA0D8F20091E7B2 /* DragNDropDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7ED2CA0D8F20091E7B2 /* DragNDropDots.swift */; };
 		78B5D7F02CA0D9210091E7B2 /* ExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7EF2CA0D9210091E7B2 /* ExplodingView.swift */; };
 		78B5D7F22CA0D9520091E7B2 /* HeartPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F12CA0D9520091E7B2 /* HeartPulse.swift */; };
-		78B5D7F42CA0D9800091E7B2 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F32CA0D9800091E7B2 /* MatchedGeometryEffect.swift */; };
+		78B5D7F42CA0D9800091E7B2 /* SwapEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */; };
 		78B5D7F62CA0D9AD0091E7B2 /* WaveDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */; };
 		78B5D7F82CA0D9F30091E7B2 /* StartButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */; };
 		78B5D7FA2CA0DA230091E7B2 /* SpinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F92CA0DA230091E7B2 /* SpinView.swift */; };
@@ -37,7 +37,7 @@
 		78B5D7ED2CA0D8F20091E7B2 /* DragNDropDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNDropDots.swift; sourceTree = "<group>"; };
 		78B5D7EF2CA0D9210091E7B2 /* ExplodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplodingView.swift; sourceTree = "<group>"; };
 		78B5D7F12CA0D9520091E7B2 /* HeartPulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartPulse.swift; sourceTree = "<group>"; };
-		78B5D7F32CA0D9800091E7B2 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapEffect.swift; sourceTree = "<group>"; };
 		78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveDots.swift; sourceTree = "<group>"; };
 		78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonStyle.swift; sourceTree = "<group>"; };
 		78B5D7F92CA0DA230091E7B2 /* SpinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinView.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				78B5D7ED2CA0D8F20091E7B2 /* DragNDropDots.swift */,
 				78B5D7EF2CA0D9210091E7B2 /* ExplodingView.swift */,
 				78B5D7F12CA0D9520091E7B2 /* HeartPulse.swift */,
-				78B5D7F32CA0D9800091E7B2 /* MatchedGeometryEffect.swift */,
+				78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */,
 				78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */,
 				78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */,
 				78B5D7F92CA0DA230091E7B2 /* SpinView.swift */,
@@ -186,7 +186,7 @@
 				78B5D7F02CA0D9210091E7B2 /* ExplodingView.swift in Sources */,
 				78B5D8022CA0DAF30091E7B2 /* TemplateRow.swift in Sources */,
 				78B5D7EC2CA0D87B0091E7B2 /* DancingDots.swift in Sources */,
-				78B5D7F42CA0D9800091E7B2 /* MatchedGeometryEffect.swift in Sources */,
+				78B5D7F42CA0D9800091E7B2 /* SwapEffect.swift in Sources */,
 				78B5D7F22CA0D9520091E7B2 /* HeartPulse.swift in Sources */,
 				78B5D7F82CA0D9F30091E7B2 /* StartButtonStyle.swift in Sources */,
 				78B5D7F62CA0D9AD0091E7B2 /* WaveDots.swift in Sources */,
