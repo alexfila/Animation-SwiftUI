@@ -14,7 +14,7 @@ struct SwapEffectView: View {
     private func rectangle() -> some View {
         Rectangle()
             .fill(.red)
-            .frame(width: 144, height: 44)
+            .frame(width: 144, height: 144)
             .matchedGeometryEffect(id: "Rectangle", in: figureTransition)
         
     }
