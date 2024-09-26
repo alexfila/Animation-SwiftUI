@@ -8,6 +8,7 @@
 import SwiftUI
 
 enum Destination: String, CaseIterable {
+    case swingby
     case swapEffect
     case basicShapes
     case scaleAnimation
@@ -21,6 +22,8 @@ enum Destination: String, CaseIterable {
     @ViewBuilder
     static func view(forSelection selection: Destination) -> some View {
         switch selection {
+        case .swingby:
+            SwingByAnimation()
         case .swapEffect:
             SwapEffectView()
         case .basicShapes:
@@ -43,6 +46,12 @@ enum Destination: String, CaseIterable {
 
 struct TemplateData {
     static var homeContent = [
+        Template(
+            title: "Swing By",
+            description: "The object swings by other with scale",
+            symbol: "arrowshape.right",
+            destination: .swingby
+        ),
         Template(
             title: "Swap Effect",
             description: "Swap 2 items between themself by vertical direction",
