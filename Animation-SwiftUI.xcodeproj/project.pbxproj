@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		789E89A52CA5E13A00D3D6BC /* ExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A32CA5E13A00D3D6BC /* ExplodingView.swift */; };
+		789E89A62CA5E13A00D3D6BC /* DragNDropDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A22CA5E13A00D3D6BC /* DragNDropDots.swift */; };
+		789E89A72CA5E13A00D3D6BC /* DancingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A12CA5E13A00D3D6BC /* DancingDots.swift */; };
+		789E89A82CA5E13A00D3D6BC /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E899F2CA5E13A00D3D6BC /* BasicAnimation.swift */; };
+		789E89A92CA5E13A00D3D6BC /* BasicShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A02CA5E13A00D3D6BC /* BasicShapes.swift */; };
+		789E89AA2CA5E13A00D3D6BC /* ScaleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A42CA5E13A00D3D6BC /* ScaleObject.swift */; };
 		78B5D7DC2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7DB2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift */; };
-		78B5D7DE2CA0CDE40091E7B2 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7DD2CA0CDE40091E7B2 /* BasicAnimation.swift */; };
 		78B5D7E02CA0CDE60091E7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B5D7DF2CA0CDE60091E7B2 /* Assets.xcassets */; };
 		78B5D7E32CA0CDE60091E7B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B5D7E22CA0CDE60091E7B2 /* Preview Assets.xcassets */; };
-		78B5D7EA2CA0D7590091E7B2 /* BasicShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7E92CA0D7590091E7B2 /* BasicShapes.swift */; };
-		78B5D7EC2CA0D87B0091E7B2 /* DancingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7EB2CA0D87B0091E7B2 /* DancingDots.swift */; };
-		78B5D7EE2CA0D8F20091E7B2 /* DragNDropDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7ED2CA0D8F20091E7B2 /* DragNDropDots.swift */; };
-		78B5D7F02CA0D9210091E7B2 /* ExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7EF2CA0D9210091E7B2 /* ExplodingView.swift */; };
-		78B5D7F22CA0D9520091E7B2 /* HeartPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F12CA0D9520091E7B2 /* HeartPulse.swift */; };
 		78B5D7F42CA0D9800091E7B2 /* SwapEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */; };
 		78B5D7F62CA0D9AD0091E7B2 /* WaveDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */; };
 		78B5D7F82CA0D9F30091E7B2 /* StartButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */; };
@@ -27,16 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		789E899F2CA5E13A00D3D6BC /* BasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
+		789E89A02CA5E13A00D3D6BC /* BasicShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShapes.swift; sourceTree = "<group>"; };
+		789E89A12CA5E13A00D3D6BC /* DancingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancingDots.swift; sourceTree = "<group>"; };
+		789E89A22CA5E13A00D3D6BC /* DragNDropDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNDropDots.swift; sourceTree = "<group>"; };
+		789E89A32CA5E13A00D3D6BC /* ExplodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplodingView.swift; sourceTree = "<group>"; };
+		789E89A42CA5E13A00D3D6BC /* ScaleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleObject.swift; sourceTree = "<group>"; };
 		78B5D7D82CA0CDE40091E7B2 /* Animation-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B5D7DB2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_SwiftUIApp.swift; sourceTree = "<group>"; };
-		78B5D7DD2CA0CDE40091E7B2 /* BasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
 		78B5D7DF2CA0CDE60091E7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B5D7E22CA0CDE60091E7B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		78B5D7E92CA0D7590091E7B2 /* BasicShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShapes.swift; sourceTree = "<group>"; };
-		78B5D7EB2CA0D87B0091E7B2 /* DancingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancingDots.swift; sourceTree = "<group>"; };
-		78B5D7ED2CA0D8F20091E7B2 /* DragNDropDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNDropDots.swift; sourceTree = "<group>"; };
-		78B5D7EF2CA0D9210091E7B2 /* ExplodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplodingView.swift; sourceTree = "<group>"; };
-		78B5D7F12CA0D9520091E7B2 /* HeartPulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartPulse.swift; sourceTree = "<group>"; };
 		78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapEffect.swift; sourceTree = "<group>"; };
 		78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveDots.swift; sourceTree = "<group>"; };
 		78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonStyle.swift; sourceTree = "<group>"; };
@@ -78,12 +78,12 @@
 			isa = PBXGroup;
 			children = (
 				78B5D7DB2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift */,
-				78B5D7DD2CA0CDE40091E7B2 /* BasicAnimation.swift */,
-				78B5D7E92CA0D7590091E7B2 /* BasicShapes.swift */,
-				78B5D7EB2CA0D87B0091E7B2 /* DancingDots.swift */,
-				78B5D7ED2CA0D8F20091E7B2 /* DragNDropDots.swift */,
-				78B5D7EF2CA0D9210091E7B2 /* ExplodingView.swift */,
-				78B5D7F12CA0D9520091E7B2 /* HeartPulse.swift */,
+				789E899F2CA5E13A00D3D6BC /* BasicAnimation.swift */,
+				789E89A02CA5E13A00D3D6BC /* BasicShapes.swift */,
+				789E89A12CA5E13A00D3D6BC /* DancingDots.swift */,
+				789E89A22CA5E13A00D3D6BC /* DragNDropDots.swift */,
+				789E89A32CA5E13A00D3D6BC /* ExplodingView.swift */,
+				789E89A42CA5E13A00D3D6BC /* ScaleObject.swift */,
 				78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */,
 				78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */,
 				78B5D7F72CA0D9F30091E7B2 /* StartButtonStyle.swift */,
@@ -177,17 +177,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B5D7FA2CA0DA230091E7B2 /* SpinView.swift in Sources */,
+				789E89A52CA5E13A00D3D6BC /* ExplodingView.swift in Sources */,
+				789E89A62CA5E13A00D3D6BC /* DragNDropDots.swift in Sources */,
+				789E89A72CA5E13A00D3D6BC /* DancingDots.swift in Sources */,
+				789E89A82CA5E13A00D3D6BC /* BasicAnimation.swift in Sources */,
+				789E89A92CA5E13A00D3D6BC /* BasicShapes.swift in Sources */,
+				789E89AA2CA5E13A00D3D6BC /* ScaleObject.swift in Sources */,
 				78B5D8002CA0DA760091E7B2 /* TemplateOrganizer.swift in Sources */,
 				78B5D7FE2CA0DA590091E7B2 /* TemplateList.swift in Sources */,
 				78B5D7FC2CA0DA480091E7B2 /* Template.swift in Sources */,
-				78B5D7EA2CA0D7590091E7B2 /* BasicShapes.swift in Sources */,
-				78B5D7DE2CA0CDE40091E7B2 /* BasicAnimation.swift in Sources */,
-				78B5D7EE2CA0D8F20091E7B2 /* DragNDropDots.swift in Sources */,
-				78B5D7F02CA0D9210091E7B2 /* ExplodingView.swift in Sources */,
 				78B5D8022CA0DAF30091E7B2 /* TemplateRow.swift in Sources */,
-				78B5D7EC2CA0D87B0091E7B2 /* DancingDots.swift in Sources */,
 				78B5D7F42CA0D9800091E7B2 /* SwapEffect.swift in Sources */,
-				78B5D7F22CA0D9520091E7B2 /* HeartPulse.swift in Sources */,
 				78B5D7F82CA0D9F30091E7B2 /* StartButtonStyle.swift in Sources */,
 				78B5D7F62CA0D9AD0091E7B2 /* WaveDots.swift in Sources */,
 				78B5D7DC2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift in Sources */,

@@ -10,7 +10,7 @@ import SwiftUI
 enum Destination: String, CaseIterable {
     case swapEffect
     case basicShapes
-    case simpleAnimation
+    case scaleAnimation
     case spinAnimation
     case explodingAnimation
     case wavedots
@@ -25,8 +25,8 @@ enum Destination: String, CaseIterable {
             SwapEffectView()
         case .basicShapes:
             BasicShapesView()
-        case .simpleAnimation:
-            HeartPulseView()
+        case .scaleAnimation:
+            ScaleObjectView()
         case .spinAnimation:
            SpinView()
         case .explodingAnimation:
@@ -56,10 +56,10 @@ struct TemplateData {
             destination: .basicShapes
         ),
         Template(
-            title: "Basic Animation",
-            description: "See an example of a basic animation.",
+            title: "Scale Animation",
+            description: "This is the example of scaling",
             symbol: "heart",
-            destination: .simpleAnimation
+            destination: .scaleAnimation
         ),
         Template(
             title: "Spin Animation",
