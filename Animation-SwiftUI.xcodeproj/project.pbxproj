@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		789E89A52CA5E13A00D3D6BC /* ExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A32CA5E13A00D3D6BC /* ExplodingView.swift */; };
+		789E89A52CA5E13A00D3D6BC /* BoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A32CA5E13A00D3D6BC /* BoomView.swift */; };
 		789E89A62CA5E13A00D3D6BC /* DragNDropDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A22CA5E13A00D3D6BC /* DragNDropDots.swift */; };
 		789E89A72CA5E13A00D3D6BC /* DancingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A12CA5E13A00D3D6BC /* DancingDots.swift */; };
 		789E89A82CA5E13A00D3D6BC /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E899F2CA5E13A00D3D6BC /* BasicAnimation.swift */; };
@@ -31,7 +31,7 @@
 		789E89A02CA5E13A00D3D6BC /* BasicShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShapes.swift; sourceTree = "<group>"; };
 		789E89A12CA5E13A00D3D6BC /* DancingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancingDots.swift; sourceTree = "<group>"; };
 		789E89A22CA5E13A00D3D6BC /* DragNDropDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNDropDots.swift; sourceTree = "<group>"; };
-		789E89A32CA5E13A00D3D6BC /* ExplodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplodingView.swift; sourceTree = "<group>"; };
+		789E89A32CA5E13A00D3D6BC /* BoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomView.swift; sourceTree = "<group>"; };
 		789E89A42CA5E13A00D3D6BC /* ScaleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleObject.swift; sourceTree = "<group>"; };
 		78B5D7D82CA0CDE40091E7B2 /* Animation-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B5D7DB2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				789E89A02CA5E13A00D3D6BC /* BasicShapes.swift */,
 				789E89A12CA5E13A00D3D6BC /* DancingDots.swift */,
 				789E89A22CA5E13A00D3D6BC /* DragNDropDots.swift */,
-				789E89A32CA5E13A00D3D6BC /* ExplodingView.swift */,
+				789E89A32CA5E13A00D3D6BC /* BoomView.swift */,
 				789E89A42CA5E13A00D3D6BC /* ScaleObject.swift */,
 				78B5D7F32CA0D9800091E7B2 /* SwapEffect.swift */,
 				78B5D7F52CA0D9AD0091E7B2 /* WaveDots.swift */,
@@ -177,7 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B5D7FA2CA0DA230091E7B2 /* SpinView.swift in Sources */,
-				789E89A52CA5E13A00D3D6BC /* ExplodingView.swift in Sources */,
+				789E89A52CA5E13A00D3D6BC /* BoomView.swift in Sources */,
 				789E89A62CA5E13A00D3D6BC /* DragNDropDots.swift in Sources */,
 				789E89A72CA5E13A00D3D6BC /* DancingDots.swift in Sources */,
 				789E89A82CA5E13A00D3D6BC /* BasicAnimation.swift in Sources */,

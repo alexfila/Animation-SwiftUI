@@ -12,7 +12,7 @@ enum Destination: String, CaseIterable {
     case basicShapes
     case scaleAnimation
     case spinAnimation
-    case explodingAnimation
+    case boomAnimation
     case wavedots
     case dragnDropDots
     case dancingDots
@@ -29,8 +29,8 @@ enum Destination: String, CaseIterable {
             ScaleObjectView()
         case .spinAnimation:
            SpinView()
-        case .explodingAnimation:
-           ExplodingView()
+        case .boomAnimation:
+            BoomView()
         case .wavedots:
             WaveDotsView()
         case .dragnDropDots:
@@ -58,7 +58,7 @@ struct TemplateData {
         Template(
             title: "Scale Animation",
             description: "This is the example of scaling",
-            symbol: "heart",
+            symbol: "arrow.up.left.and.arrow.down.right",
             destination: .scaleAnimation
         ),
         Template(
@@ -68,12 +68,11 @@ struct TemplateData {
             destination: .spinAnimation
         ),
         Template(
-            title: "Explosion Animation",
-            description: "Tap to explode a rectangle into many pieces.",
-            symbol: "sparkles",
-            destination: .explodingAnimation
+            title: "Boom Animation",
+            description: "An object falls into many pieces",
+            symbol: "bubbles.and.sparkles",
+            destination: .boomAnimation
         ),
-        
         Template(
             title: "Wave Dots",
             description: "Creates wave effect of multiple objects",
