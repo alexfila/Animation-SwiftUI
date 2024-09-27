@@ -16,7 +16,6 @@ enum Destination: String, CaseIterable {
     case boomAnimation
     case wavedots
     case draggingDots
-    case dancingDots
 
     
     @ViewBuilder
@@ -38,8 +37,6 @@ enum Destination: String, CaseIterable {
             WaveDotsView()
         case .draggingDots:
             DraggingAnimationView()
-        case .dancingDots:
-            DancingDotsView()
         }
     }
 }
@@ -94,11 +91,5 @@ struct TemplateData {
             symbol: "hand.draw.badge.ellipsis.fill",
             destination: .draggingDots
         ),
-        Template(
-            title: "Dancing Dots",
-            description: "Explore an advanced animation that really pops.",
-            symbol: "circle.grid.3x3",
-            destination: .dancingDots
-        )
     ]
 }
