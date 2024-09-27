@@ -15,7 +15,7 @@ enum Destination: String, CaseIterable {
     case spinAnimation
     case boomAnimation
     case wavedots
-    case dragnDropDots
+    case draggingDots
     case dancingDots
 
     
@@ -36,8 +36,8 @@ enum Destination: String, CaseIterable {
             BoomView()
         case .wavedots:
             WaveDotsView()
-        case .dragnDropDots:
-            DragNDropDotsView()
+        case .draggingDots:
+            DraggingAnimationView()
         case .dancingDots:
             DancingDotsView()
         }
@@ -89,10 +89,10 @@ struct TemplateData {
             destination: .wavedots
         ),
         Template(
-            title: "Drag N' Drop It",
-            description: "Use a drag gesture to move and animate a grid view.",
-            symbol: "hand.draw",
-            destination: .dragnDropDots
+            title: "Draging Animation",
+            description: "Drag multiples objects with animation",
+            symbol: "hand.draw.badge.ellipsis.fill",
+            destination: .draggingDots
         ),
         Template(
             title: "Dancing Dots",
