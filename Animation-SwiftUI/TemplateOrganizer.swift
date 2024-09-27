@@ -10,7 +10,7 @@ import SwiftUI
 enum Destination: String, CaseIterable {
     case swingby
     case swapEffect
-    case basicShapes
+    case configurationshape
     case scaleAnimation
     case spinAnimation
     case boomAnimation
@@ -25,8 +25,8 @@ enum Destination: String, CaseIterable {
             SwingByAnimation()
         case .swapEffect:
             SwapEffectView()
-        case .basicShapes:
-            BasicShapesView()
+        case .configurationshape:
+            ConfigurationView()
         case .scaleAnimation:
             ScaleObjectView()
         case .spinAnimation:
@@ -56,10 +56,10 @@ struct TemplateData {
             destination: .swapEffect
         ),
         Template(
-            title: "Basic Shapes",
-            description: "Experiment with different shape types.",
-            symbol: "square.on.circle",
-            destination: .basicShapes
+            title: "Configuration",
+            description: "Configuration prototype with some options",
+            symbol: "opticaldisc",
+            destination: .configurationshape
         ),
         Template(
             title: "Scale Animation",
