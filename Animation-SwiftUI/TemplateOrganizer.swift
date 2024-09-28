@@ -16,6 +16,8 @@ enum Destination: String, CaseIterable {
     case boomAnimation
     case wavedots
     case draggingDots
+    case upandDown
+    case reactions
 
     
     @ViewBuilder
@@ -37,12 +39,28 @@ enum Destination: String, CaseIterable {
             WaveDotsView()
         case .draggingDots:
             DraggingAnimationView()
+        case .upandDown:
+            UpAndDown()
+        case .reactions:
+            ReactionsView()
         }
     }
 }
 
 struct TemplateData {
     static var homeContent = [
+        Template(
+            title: "Reactions Emoji",
+            description: "Buttons with different animation",
+            symbol: "face.dashed",
+            destination: .reactions
+        ),
+        Template(
+            title: "Up and Down Animation",
+            description: "Slight jump for buttons",
+            symbol: "arrowshape.up",
+            destination: .upandDown
+        ),
         Template(
             title: "Swing By",
             description: "The object swings by other with scale",
