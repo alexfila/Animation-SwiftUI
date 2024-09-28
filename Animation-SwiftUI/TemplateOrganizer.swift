@@ -43,6 +43,7 @@ enum Destination: String, CaseIterable {
             UpAndDown()
         case .reactions:
             ReactionsView()
+                .preferredColorScheme(.dark)
         }
     }
 }

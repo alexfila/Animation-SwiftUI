@@ -109,7 +109,7 @@ struct ReactionsView: View {
                                 .rotationEffect(.degrees(scaleRotate ? -45 : 0), anchor: .bottomLeading)
                                 .scaleEffect(scaleRotate ? 1.5 : 1)
                         } animation: { scaleRotate in
-                                .bouncy(duration: 0.4, extraBounce: 0.4)
+                                .bouncy(duration: 0.6, extraBounce: 0.3)
                         }
                 }
             }
@@ -124,7 +124,7 @@ struct ReactionsView: View {
                     .rotationEffect(.degrees(dislike ? -45 : 0), anchor: .leading)
                     .scaleEffect(dislike ? 1.5 : 1)
             } animation: { dislike in
-                    .bouncy(duration: 0.2, extraBounce: 0.4)
+                    .bouncy(duration: 0.4, extraBounce: 0.4)
             }
             
             Button {
@@ -148,7 +148,7 @@ struct ReactionsView: View {
             .phaseAnimator([false, true], trigger: sadCount) { icon, sad in
                 icon
                     .offset(y: sad ? -30 : 0)
-                    .rotationEffect(.degrees(sad ? 45 : 0))
+                    .rotationEffect(.degrees(sad ? -30 : 0))
                     .scaleEffect(sad ? 1.5 : 1)
             } animation: { sad in
                     .bouncy(duration: 0.2, extraBounce: 0.4)
