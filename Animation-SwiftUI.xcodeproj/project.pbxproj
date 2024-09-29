@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7875DC5B2CA8A430004E5CFE /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875DC5A2CA8A430004E5CFE /* ReactionsView.swift */; };
 		7875DC622CA8AAEF004E5CFE /* UpAndDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875DC612CA8AAEF004E5CFE /* UpAndDown.swift */; };
+		7875DC662CA9F146004E5CFE /* GiftAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7875DC652CA9F146004E5CFE /* GiftAnimation.swift */; };
 		789E89A52CA5E13A00D3D6BC /* BoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A32CA5E13A00D3D6BC /* BoomView.swift */; };
 		789E89A62CA5E13A00D3D6BC /* DraggingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E89A22CA5E13A00D3D6BC /* DraggingAnimation.swift */; };
 		789E89A82CA5E13A00D3D6BC /* SwingByAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E899F2CA5E13A00D3D6BC /* SwingByAnimation.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		7875DC5A2CA8A430004E5CFE /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
 		7875DC612CA8AAEF004E5CFE /* UpAndDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpAndDown.swift; sourceTree = "<group>"; };
+		7875DC652CA9F146004E5CFE /* GiftAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftAnimation.swift; sourceTree = "<group>"; };
 		789E899F2CA5E13A00D3D6BC /* SwingByAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingByAnimation.swift; sourceTree = "<group>"; };
 		789E89A02CA5E13A00D3D6BC /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		789E89A22CA5E13A00D3D6BC /* DraggingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggingAnimation.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				78B5D7DB2CA0CDE40091E7B2 /* Animation_SwiftUIApp.swift */,
 				789E899F2CA5E13A00D3D6BC /* SwingByAnimation.swift */,
 				7875DC5A2CA8A430004E5CFE /* ReactionsView.swift */,
+				7875DC652CA9F146004E5CFE /* GiftAnimation.swift */,
 				789E89A02CA5E13A00D3D6BC /* Configuration.swift */,
 				789E89A22CA5E13A00D3D6BC /* DraggingAnimation.swift */,
 				789E89A32CA5E13A00D3D6BC /* BoomView.swift */,
@@ -189,6 +192,7 @@
 			files = (
 				78B5D7FA2CA0DA230091E7B2 /* SpinView.swift in Sources */,
 				789E89A52CA5E13A00D3D6BC /* BoomView.swift in Sources */,
+				7875DC662CA9F146004E5CFE /* GiftAnimation.swift in Sources */,
 				789E89A62CA5E13A00D3D6BC /* DraggingAnimation.swift in Sources */,
 				789E89A82CA5E13A00D3D6BC /* SwingByAnimation.swift in Sources */,
 				789E89A92CA5E13A00D3D6BC /* Configuration.swift in Sources */,

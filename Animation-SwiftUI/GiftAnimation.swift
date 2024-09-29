@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct SwiftUIXmasTree: View {
+struct GiftAnimation: View {
     
     @State private var isSpinning = false
     let coral = Color(#colorLiteral(red: 1, green: 0.4941176471, blue: 0.4745098039, alpha: 1))
@@ -239,6 +239,6 @@ struct SwiftUIXmasTree: View {
 }
 
 #Preview {
-    SwiftUIXmasTree()
+    GiftAnimation()
         .preferredColorScheme(.dark)
 }
