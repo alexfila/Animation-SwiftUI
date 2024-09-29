@@ -23,7 +23,6 @@ struct GiftAnimation: View {
     
     var body: some View {
         VStack {
-            //Image(systemName: "wand.and.stars.inverse")
             Text("🎁")
                 .font(.system(size: 64))
                 .hueRotation(.degrees(isSpinning ? 0 : 150))
@@ -33,13 +32,12 @@ struct GiftAnimation: View {
             
             ZStack {
                 ZStack {
-                    Circle() // MARK: One. No delay
+                    Circle()
                         .stroke(lineWidth: 1)
                         .frame(width: 20, height: 20)
                         .foregroundStyle(coral.gradient)
                     
                     ForEach(0 ..< 4) {
-                        //Circle()
                         Text("✨")
                             .hueRotation(.degrees(isSpinning ? Double($0) * 310 : Double($0) * 50))
                             .offset(y: -10)
@@ -53,13 +51,12 @@ struct GiftAnimation: View {
                 .offset(y: -160)
                 
                 ZStack {
-                    Circle() // MARK: Two. 0.1 delay
+                    Circle()
                         .stroke(lineWidth: 2)
                         .frame(width: 50, height: 50)
                         .foregroundStyle(peach.gradient)
                     
                     ForEach(0 ..< 4) {
-                        //Circle()
                         Text("🌟")
                             .hueRotation(.degrees(isSpinning ? Double($0) * 310 : Double($0) * 50))
                             .offset(y: -25)
@@ -73,13 +70,12 @@ struct GiftAnimation: View {
                 .offset(y: -120)
                 
                 ZStack {
-                    Circle() // Three. 0.2 delay
+                    Circle()
                         .stroke(lineWidth: 3)
                         .frame(width: 80, height: 80)
                         .foregroundStyle(lightLimeGreen.gradient)
                     
                     ForEach(0 ..< 4) {
-                        //Circle()
                         Text("💫")
                             .hueRotation(.degrees(isSpinning ? Double($0) * 310 : Double($0) * 50))
                             .offset(y: -40)
@@ -93,7 +89,7 @@ struct GiftAnimation: View {
                 .offset(y: -80)
                 
                 ZStack {
-                    Circle() // MARK: Four. 0.3 delay
+                    Circle()
                         .stroke(lineWidth: 3)
                         .frame(width: 110, height: 110)
                         .foregroundStyle(springGreen.gradient)
@@ -113,7 +109,7 @@ struct GiftAnimation: View {
                 .offset(y: -40)
                 
                 ZStack {
-                    Circle() // MARK: Five. 0.4 delay
+                    Circle()
                         .stroke(lineWidth: 3)
                         .frame(width: 140, height: 140)
                         .foregroundStyle(paleAqua.gradient)
@@ -133,7 +129,7 @@ struct GiftAnimation: View {
                 .offset(y: 0)
                 
                 ZStack {
-                    Circle() // MARK: Six. 0.5 delay
+                    Circle()
                         .stroke(lineWidth: 3)
                         .frame(width: 170, height: 170)
                         .foregroundStyle(skyBlue.gradient)
@@ -153,7 +149,7 @@ struct GiftAnimation: View {
                 .offset(y: 40)
                 
                 ZStack {
-                    Circle() // MARK: Seven. 0.6 delay
+                    Circle()
                         .stroke(lineWidth: 5)
                         .frame(width: 200, height: 200)
                         .foregroundStyle(softLavender.gradient)
@@ -172,7 +168,7 @@ struct GiftAnimation: View {
                 .offset(y: 80)
                 
                 ZStack {
-                    Circle() // MARK: Eight. 0.7 delay
+                    Circle()
                         .stroke(lineWidth: 4)
                         .frame(width: 230, height: 230)
                         .foregroundStyle(electricPurple.gradient)
@@ -192,13 +188,12 @@ struct GiftAnimation: View {
                 .offset(y: 120)
                 
                 ZStack {
-                    Circle() // MARK: Nine. 0.8 delay
+                    Circle()
                         .stroke(lineWidth: 5)
                         .frame(width: 260, height: 260)
                         .foregroundStyle(olive.gradient)
                     
                     ForEach(0 ..< 4) {
-                        //Circle()
                         Text("🧧")
                             .hueRotation(.degrees(isSpinning ? Double($0) * 310 : Double($0) * 50))
                             .offset(y: -130)
@@ -213,7 +208,7 @@ struct GiftAnimation: View {
                 
                 
                 ZStack {
-                    Circle() // MARK: Ten. 0.9 delay
+                    Circle()
                         .stroke(lineWidth: 5)
                         .foregroundStyle(forestGreen.gradient)
                     
