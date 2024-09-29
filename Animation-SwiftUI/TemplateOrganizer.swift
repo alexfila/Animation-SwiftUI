@@ -18,6 +18,7 @@ enum Destination: String, CaseIterable {
     case draggingDots
     case upandDown
     case reactions
+    case giftanimation
 
     
     @ViewBuilder
@@ -44,12 +45,21 @@ enum Destination: String, CaseIterable {
         case .reactions:
             ReactionsView()
                 .preferredColorScheme(.dark)
+        case .giftanimation:
+            GiftAnimation()
+                .preferredColorScheme(.dark)
         }
     }
 }
 
 struct TemplateData {
     static var homeContent = [
+        Template(
+            title: "Gift Animation",
+            description: "It's 3D animation with Gift on top",
+            symbol: "gift",
+            destination: .giftanimation
+        ),
         Template(
             title: "Reactions Emoji",
             description: "Buttons with different animation",
