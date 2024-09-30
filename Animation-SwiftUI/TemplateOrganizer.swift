@@ -52,7 +52,8 @@ enum Destination: String, CaseIterable {
         case .giftanimation:
             GiftAnimation()
                 .preferredColorScheme(.dark)
-        case .wwdcletters
+        case .wwdcletters:
+            WWDCColors()
         }
     }
 }
