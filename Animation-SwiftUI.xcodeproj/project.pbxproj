@@ -27,6 +27,7 @@
 		78B5D8002CA0DA760091E7B2 /* TemplateOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D7FF2CA0DA760091E7B2 /* TemplateOrganizer.swift */; };
 		78B5D8022CA0DAF30091E7B2 /* TemplateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5D8012CA0DAF30091E7B2 /* TemplateRow.swift */; };
 		78FA952D2CAB382300405D89 /* Stackanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA952C2CAB382300405D89 /* Stackanimation.swift */; };
+		78FA952F2CAB3E8600405D89 /* WWDCColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA952E2CAB3E8600405D89 /* WWDCColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		78B5D7FF2CA0DA760091E7B2 /* TemplateOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateOrganizer.swift; sourceTree = "<group>"; };
 		78B5D8012CA0DAF30091E7B2 /* TemplateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRow.swift; sourceTree = "<group>"; };
 		78FA952C2CAB382300405D89 /* Stackanimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stackanimation.swift; sourceTree = "<group>"; };
+		78FA952E2CAB3E8600405D89 /* WWDCColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -108,6 +110,7 @@
 				7875DC5C2CA8A4E9004E5CFE /* SupportViews */,
 				78B5D7DF2CA0CDE60091E7B2 /* Assets.xcassets */,
 				78B5D7E12CA0CDE60091E7B2 /* Preview Content */,
+				78FA952E2CAB3E8600405D89 /* WWDCColors.swift */,
 			);
 			path = "Animation-SwiftUI";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				789E89A82CA5E13A00D3D6BC /* SwingByAnimation.swift in Sources */,
 				789E89A92CA5E13A00D3D6BC /* Configuration.swift in Sources */,
 				789E89AA2CA5E13A00D3D6BC /* ScaleObject.swift in Sources */,
+				78FA952F2CAB3E8600405D89 /* WWDCColors.swift in Sources */,
 				78B5D8002CA0DA760091E7B2 /* TemplateOrganizer.swift in Sources */,
 				78B5D7FE2CA0DA590091E7B2 /* TemplateList.swift in Sources */,
 				78B5D7FC2CA0DA480091E7B2 /* Template.swift in Sources */,

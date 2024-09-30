@@ -20,6 +20,7 @@ enum Destination: String, CaseIterable {
     case reactions
     case giftanimation
     case stackAnimation
+    case wwdcletters
 
     
     @ViewBuilder
@@ -51,6 +52,7 @@ enum Destination: String, CaseIterable {
         case .giftanimation:
             GiftAnimation()
                 .preferredColorScheme(.dark)
+        case .wwdcletters
         }
     }
 }
@@ -80,6 +82,12 @@ struct TemplateData {
             description: "Multiple objects are stacked and moving",
             symbol: "play.square.stack",
             destination: .stackAnimation
+        ),
+        Template(
+            title: "WWDC letters",
+            description: "WWCD letters with multicolor animation",
+            symbol: "w.square",
+            destination: .wwdcletters
         ),
         Template(
             title: "Swing By",
