@@ -19,11 +19,14 @@ enum Destination: String, CaseIterable {
     case upandDown
     case reactions
     case giftanimation
+    case stackAnimation
 
     
     @ViewBuilder
     static func view(forSelection selection: Destination) -> some View {
         switch selection {
+        case .stackAnimation:
+            Stackanimation()
         case .swingby:
             SwingByAnimation()
         case .swapEffect:
@@ -71,6 +74,12 @@ struct TemplateData {
             description: "Slight jump for buttons",
             symbol: "arrowshape.up",
             destination: .upandDown
+        ),
+        Template(
+            title: "Stack Animation",
+            description: "Multiple objects are stacked and moving",
+            symbol: "play.square.stack",
+            destination: .stackAnimation
         ),
         Template(
             title: "Swing By",
