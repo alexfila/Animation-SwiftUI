@@ -233,7 +233,4 @@ struct GiftAnimation: View {
     }
 }
 
-#Preview {
-    GiftAnimation()
-        .preferredColorScheme(.dark)
-}
+#Preview { GiftAnimation().preferredColorScheme(.dark) }

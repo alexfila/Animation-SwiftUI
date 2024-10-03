@@ -35,9 +35,5 @@ struct TemplateList: View {
     
 }
 
-struct TemplateList_Previews: PreviewProvider {
-    static var previews: some View {
-        TemplateList(contentSource: TemplateData.homeContent)
-    }
-}
+#Preview { TemplateList(contentSource: TemplateData.homeContent) }
 

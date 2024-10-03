@@ -131,6 +131,4 @@ struct UpAndDown: View {
     }
 }
 
-#Preview {
-    UpAndDown()
-}
+#Preview { UpAndDown() }

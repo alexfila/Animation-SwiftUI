@@ -160,7 +160,5 @@ struct ReactionsView: View {
     }
 }
 
-#Preview { ReactionsView()
-        .preferredColorScheme(.dark)
-}
+#Preview { ReactionsView().preferredColorScheme(.dark) }
 

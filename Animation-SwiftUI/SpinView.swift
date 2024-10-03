@@ -47,10 +47,6 @@ struct SpinView: View {
     }
 }
 
-struct SpinView_Previews: PreviewProvider {
-    static var previews: some View {
-        SpinView()
-    }
-}
+#Preview { SpinView() }
 
 

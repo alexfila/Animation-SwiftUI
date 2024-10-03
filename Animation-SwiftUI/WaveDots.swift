@@ -44,8 +44,4 @@ struct WaveDotsView: View {
     }
 }
 
-struct WaveDotsView_Previews: PreviewProvider {
-    static var previews: some View {
-        WaveDotsView()
-    }
-}
+#Preview { WaveDotsView() }

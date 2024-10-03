@@ -32,8 +32,4 @@ struct TemplateRowView: View {
     }
 }
 
-struct TemplateRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        TemplateRowView(title: "Template example", description: "Description of template animation", icon: "rectangle.fill")
-    }
-}
+#Preview { TemplateRowView(title: "Template example", description: "Description of template animation", icon: "rectangle.fill") }

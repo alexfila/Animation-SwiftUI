@@ -32,7 +32,4 @@ struct Stackanimation: View {
     }
 }
 
-#Preview {
-    Stackanimation()
-        .preferredColorScheme(.dark)
-}
+#Preview { Stackanimation().preferredColorScheme(.dark) }
